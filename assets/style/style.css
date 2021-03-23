@@ -158,6 +158,10 @@ header {
 .mb0 {
   margin-bottom: 0
 }
+.pb10 {
+  padding-bottom: 5em
+}
+
 
 .mt0 {
   margin-top: 0
@@ -261,4 +265,14 @@ main>*:target~* {
 
 .right {
   width: 30%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: center;
 }
