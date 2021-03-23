@@ -76,6 +76,13 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 28rem
 }
 
+h7 {
+  font-weight: 400;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  max-width: 28rem
+}
+
 h1 {
   font-size: 2rem
 }
@@ -159,6 +166,9 @@ header {
 .mr1 {
   margin-right: 1rem
 }
+.ml1 {
+  margin-left: 1rem
+}
 
 .mr05 {
   margin-right: .25rem
@@ -237,4 +247,18 @@ main>*:target~* {
   50% {
     width: 100%
   }
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
 }
